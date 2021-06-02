@@ -1,3 +1,4 @@
+/* eslint-disable eqeqeq */
 import React, { useContext } from 'react'
 import "./Pages.css"
 import { PageNumberContext, PageContext } from "../Home/Home"

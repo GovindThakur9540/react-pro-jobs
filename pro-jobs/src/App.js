@@ -14,7 +14,7 @@ function App() {
 
   // After all the components are loaded this funtion will fetch jobs from external api
   useEffect(() => {
-    const url = "https://cors-anywhere.herokuapp.com/https://jobs.github.com/positions.json"
+    const url = 'https://cors-anywhere.herokuapp.com/https://jobs.github.com/positions.json';
     axios.get(url)
       .then(response => {
         setjobs(response.data)
